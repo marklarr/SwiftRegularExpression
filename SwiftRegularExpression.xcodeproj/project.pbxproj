@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C1449FC193F10BE009B6DFD /* SwiftRegularExpression.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C1449F0193F10BE009B6DFD /* SwiftRegularExpression.framework */; };
+		8C144A03193F10BE009B6DFD /* SwiftRegularExpressionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C144A02193F10BE009B6DFD /* SwiftRegularExpressionTests.swift */; };
+		8C144A0D193F10D9009B6DFD /* RegularExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C144A0C193F10D9009B6DFD /* RegularExpression.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C1449FD193F10BE009B6DFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C1449E7193F10BE009B6DFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C1449EF193F10BE009B6DFD;
+			remoteInfo = SwiftRegularExpression;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C1449F0193F10BE009B6DFD /* SwiftRegularExpression.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftRegularExpression.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C1449F4193F10BE009B6DFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C1449FB193F10BE009B6DFD /* SwiftRegularExpressionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftRegularExpressionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C144A01193F10BE009B6DFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C144A02193F10BE009B6DFD /* SwiftRegularExpressionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftRegularExpressionTests.swift; sourceTree = "<group>"; };
+		8C144A0C193F10D9009B6DFD /* RegularExpression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegularExpression.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C1449EC193F10BE009B6DFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C1449F8193F10BE009B6DFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C1449FC193F10BE009B6DFD /* SwiftRegularExpression.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C1449E6193F10BE009B6DFD = {
+			isa = PBXGroup;
+			children = (
+				8C1449F2193F10BE009B6DFD /* SwiftRegularExpression */,
+				8C1449FF193F10BE009B6DFD /* SwiftRegularExpressionTests */,
+				8C1449F1193F10BE009B6DFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C1449F1193F10BE009B6DFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C1449F0193F10BE009B6DFD /* SwiftRegularExpression.framework */,
+				8C1449FB193F10BE009B6DFD /* SwiftRegularExpressionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C1449F2193F10BE009B6DFD /* SwiftRegularExpression */ = {
+			isa = PBXGroup;
+			children = (
+				8C1449F3193F10BE009B6DFD /* Supporting Files */,
+				8C144A0C193F10D9009B6DFD /* RegularExpression.swift */,
+			);
+			path = SwiftRegularExpression;
+			sourceTree = "<group>";
+		};
+		8C1449F3193F10BE009B6DFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C1449F4193F10BE009B6DFD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8C1449FF193F10BE009B6DFD /* SwiftRegularExpressionTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C144A02193F10BE009B6DFD /* SwiftRegularExpressionTests.swift */,
+				8C144A00193F10BE009B6DFD /* Supporting Files */,
+			);
+			path = SwiftRegularExpressionTests;
+			sourceTree = "<group>";
+		};
+		8C144A00193F10BE009B6DFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C144A01193F10BE009B6DFD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8C1449ED193F10BE009B6DFD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8C1449EF193F10BE009B6DFD /* SwiftRegularExpression */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C144A06193F10BE009B6DFD /* Build configuration list for PBXNativeTarget "SwiftRegularExpression" */;
+			buildPhases = (
+				8C1449EB193F10BE009B6DFD /* Sources */,
+				8C1449EC193F10BE009B6DFD /* Frameworks */,
+				8C1449ED193F10BE009B6DFD /* Headers */,
+				8C1449EE193F10BE009B6DFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftRegularExpression;
+			productName = SwiftRegularExpression;
+			productReference = 8C1449F0193F10BE009B6DFD /* SwiftRegularExpression.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8C1449FA193F10BE009B6DFD /* SwiftRegularExpressionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C144A09193F10BE009B6DFD /* Build configuration list for PBXNativeTarget "SwiftRegularExpressionTests" */;
+			buildPhases = (
+				8C1449F7193F10BE009B6DFD /* Sources */,
+				8C1449F8193F10BE009B6DFD /* Frameworks */,
+				8C1449F9193F10BE009B6DFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C1449FE193F10BE009B6DFD /* PBXTargetDependency */,
+			);
+			name = SwiftRegularExpressionTests;
+			productName = SwiftRegularExpressionTests;
+			productReference = 8C1449FB193F10BE009B6DFD /* SwiftRegularExpressionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C1449E7193F10BE009B6DFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = marklarr;
+				TargetAttributes = {
+					8C1449EF193F10BE009B6DFD = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					8C1449FA193F10BE009B6DFD = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 8C1449EF193F10BE009B6DFD;
+					};
+				};
+			};
+			buildConfigurationList = 8C1449EA193F10BE009B6DFD /* Build configuration list for PBXProject "SwiftRegularExpression" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8C1449E6193F10BE009B6DFD;
+			productRefGroup = 8C1449F1193F10BE009B6DFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C1449EF193F10BE009B6DFD /* SwiftRegularExpression */,
+				8C1449FA193F10BE009B6DFD /* SwiftRegularExpressionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C1449EE193F10BE009B6DFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C1449F9193F10BE009B6DFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C1449EB193F10BE009B6DFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C144A0D193F10D9009B6DFD /* RegularExpression.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C1449F7193F10BE009B6DFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C144A03193F10BE009B6DFD /* SwiftRegularExpressionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C1449FE193F10BE009B6DFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C1449EF193F10BE009B6DFD /* SwiftRegularExpression */;
+			targetProxy = 8C1449FD193F10BE009B6DFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8C144A04193F10BE009B6DFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8C144A05193F10BE009B6DFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8C144A07193F10BE009B6DFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SwiftRegularExpression/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C144A08193F10BE009B6DFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SwiftRegularExpression/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8C144A0A193F10BE009B6DFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftRegularExpressionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C144A0B193F10BE009B6DFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftRegularExpressionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C1449EA193F10BE009B6DFD /* Build configuration list for PBXProject "SwiftRegularExpression" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C144A04193F10BE009B6DFD /* Debug */,
+				8C144A05193F10BE009B6DFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C144A06193F10BE009B6DFD /* Build configuration list for PBXNativeTarget "SwiftRegularExpression" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C144A07193F10BE009B6DFD /* Debug */,
+				8C144A08193F10BE009B6DFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8C144A09193F10BE009B6DFD /* Build configuration list for PBXNativeTarget "SwiftRegularExpressionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C144A0A193F10BE009B6DFD /* Debug */,
+				8C144A0B193F10BE009B6DFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C1449E7193F10BE009B6DFD /* Project object */;
+}
